@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RibbonLayout">
+        <attr name="ribbonColor" format="reference|color"/>
+        <attr name="curveDepth" format="dimension"/>
+        <attr name="automatePaddingEnd" format="boolean"/>
+        <attr name="childOrientation" format="enum">
+            <enum name="horizontal" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+    </declare-styleable>
+</resources>
