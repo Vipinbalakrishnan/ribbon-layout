@@ -10,7 +10,7 @@ android {
         minSdk 19
         targetSdk 31
         versionCode 1
-        versionName "1.0"
+        versionName "1.1"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -37,3 +37,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation project(':ribbonlayout')
 }
+//apply from: "https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/1.3.0/gradle-mavenizer.gradle"
+//apply from: 'https://raw.githubusercontent.com/sky-uk/gradle-maven-plugin/master/gradle-mavenizer.gradle'
